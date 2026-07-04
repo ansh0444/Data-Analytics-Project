@@ -39,11 +39,11 @@ Overall, this dashboard enables management to monitor business performance effec
 
 - Step 9 : A "Clustered Bar Chart" was added to the report design area representing the "Average Discount Value by Promotion Name". While creating this visual, a "visual-level filter" was applied from the "Filters" pane to exclude "blank Promotion Name" values, ensuring that the chart displays only valid promotions and their corresponding average discount values..
            
-           Although, by default, while calculating average, blank values are ignored.
+            Although, by default, while calculating average, blank values are ignored.
 - Step 10 : A "Scatter Chart" was added to the report design area representing the relationship between "Profit" and "Net Sales". While creating this visual, the "Profit" field was added to the "X-axis" and "Net Sales" was added to the "Y-axis", allowing users to analyze the correlation between profitability and sales performance.
 - Step 11 : A "Line Chart" was added to visualize the "Sales Trend by Period", enabling users to monitor daily sales performance over time and identify seasonal patterns, peaks, and fluctuations.
 
-        This visual changes dynamically when different visual filters are applied, enabling users to monitor sales trends across selected time periods.
+            This visual changes dynamically when different visual filters are applied, enabling users to monitor sales trends across selected time periods.
  
 In our dataset, Some parameters were assigned value 0, representing those parameters are not applicable for some customers.
 
@@ -53,13 +53,13 @@ All these values have been ignored while calculating average rating for each of 
 - Step 13 : A "Card visual" was added to the report to display the "Total Number of Orders", providing a quick overview of the total orders processed. 
 - Step 14 : Six "Stacked Bar Charts" were added to the report design area representing the "Top 5" and "Bottom 5" Products based on "Sales", "Profit", and "Quantity Sold". While creating these visuals, the "Top N" filter was applied from the "Filters" pane to display the "Top 5" and "Bottom 5" products by setting the required measure and limiting the number of displayed products to "5".
 
-          These visuals change dynamically when different visual filters are applied, enabling users to identify the highest and lowest performing products across the selected business metrics.
+            These visuals change dynamically when different visual filters are applied, enabling users to identify the highest and lowest performing products across the selected business metrics.
 
 - Step 15 : A "Table Visual" was added to the report design area to display "Sales", "Profit", "Discount Value", "Net Sales", and all remaining order-level fields for each transaction. "Visual Filters (Slicers)" were added for "Date", "Product Name", "Customer Name", and "Promotion Name" to enable users to filter the table dynamically. A DAX measure named Sum Di was created and applied as a "visual-level filter" in each slicer to ensure that only records with valid "Net Sales" values are displayed.
 
 Following DAX expression was written for the same,
-        
-        Sum Di = SUM('Fact Table'[Net Sales])
+
+              Sum Di = SUM('Fact Table'[Net Sales])
         
 Although, by default, slicers display all available values, the Sum Di measure was used to remove items with no corresponding transaction data, ensuring that only relevant filter values are shown.
 
@@ -101,8 +101,8 @@ Following inferences can be drawn from the dashboard;
 
 - Sum of Net Sales was unexpectedly high on Thursday, November 24, 2022. It had a value of 651189, which is outside the expected range of 35738.14-56043.86.
 
-         Sum of Net Sales for Customer ID 48 was unusually high, which may   have lifted the Sum of Net Sales total.
-         Sum of Net Sales for Product Line Electronics was unusually high, which may have lifted the Sum of Net Sales total.
+        Sum of Net Sales for Customer ID 48 was unusually high, which may   have lifted the Sum of Net Sales total.
+        Sum of Net Sales for Product Line Electronics was unusually high, which may have lifted the Sum of Net Sales total.
            
 ### [2] Trends 
 - Recent Trend in Sum of Net Sales
