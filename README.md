@@ -1,5 +1,3 @@
-# Data-Analytics-Project
-
 # ElectroHub - Dashboard
 
 ### Dashboard Link : https://app.powerbi.com/view?r=eyJrIjoiYzFkMTU1ODItNGI2NC00M2Q4LTgxZWYtNGUxMDM3YzYyNDBkIiwidCI6ImI0ODUyNjAyLWM5Y2ItNDNmZi04ZmUwLWFhYzMzODAyZDFlNSJ9&pageName=395e7363601fe2f75886
