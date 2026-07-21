@@ -74,7 +74,7 @@ Although, by default, slicers display all available values, the Sum Di measure w
 
 ![dashboard_snapo](https://github.com/ansh0444/Data-Analytics-Project/blob/e0c2e58d595a9394d7fb18d658d6061506ef4d96/img/Overview.png)
 
-![dashboard_snapo](https://github.com/ansh0444/Data-Analytics-Project/blob/a8e8688c939e244f100c5e264c38ac7176668dcc/img/EDA2.png)
+![dashboard_snapo](https://github.com/ansh0444/Data-Analytics-Project/blob/98f105e49b0e1c3ea54c31fe21e6a6973b693c09/img/Cluster%20bar%20chart.png)
 
 ![dashboard_snapo](https://github.com/ansh0444/Data-Analytics-Project/blob/d504bcc7ba299ce00cbe8db74ba122f4775217d0/img/EDA3.png)
 
