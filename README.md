@@ -72,7 +72,7 @@ Although, by default, slicers display all available values, the Sum Di measure w
 
 # Snapshot of Dashboard (Power BI Service)
 
-![dashboard_snapo](https://github.com/ansh0444/Data-Analytics-Project/blob/d056567552219b4122bbe479cbf517b099852c57/img/EDA1.png)
+![dashboard_snapo](https://github.com/ansh0444/Data-Analytics-Project/blob/e0c2e58d595a9394d7fb18d658d6061506ef4d96/img/Overview.png)
 
 ![dashboard_snapo](https://github.com/ansh0444/Data-Analytics-Project/blob/a8e8688c939e244f100c5e264c38ac7176668dcc/img/EDA2.png)
 
